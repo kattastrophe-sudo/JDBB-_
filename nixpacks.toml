@@ -1,0 +1,8 @@
+[build]
+providers = ["node"]
+
+[start]
+cmd = "node server/index.js"
+
+[phases.setup]
+nixPkgs = ["nodejs_18"]
