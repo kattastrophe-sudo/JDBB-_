@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Production
+/dist
+/build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads (in development)
+uploads/dev/*
+!uploads/dev/.gitkeep
+
+# Testing
+coverage/
+.nyc_output/
+
+# Python (if using Python for any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
