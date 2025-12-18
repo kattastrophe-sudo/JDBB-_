@@ -9,6 +9,9 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+# Google Cloud credentials (NEVER commit these!)
+server/config/credentials.json
+
 # Production
 /dist
 /build
